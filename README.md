@@ -5,7 +5,7 @@ Uses the Kolmogorov–Smirnov test and a hemispherical comparison method to test
 
 The sample data is from the HyperLeda database:http://leda.univ-lyon1.fr/
 
-Python modules: numpy, scipy, matplotlib, math, healpy
+# Python modules: numpy, scipy, matplotlib, math, healpy
 
 It was used for the main analysis of this publication: http://adsabs.harvard.edu/abs/2017A%26A...597A.120J​
 
