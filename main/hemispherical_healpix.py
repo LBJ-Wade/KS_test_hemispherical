@@ -12,7 +12,7 @@ radius_of_separation=np.sin(cone_angle)/np.sin((np.pi-cone_angle)/2.0)
 nside=8
 
 
-RA,DEC,longt,lat,t,et,v, bt, e_bt, btc, mabs=np.genfromtxt("ra_dec_l_b_t-et_v_bt-ebt_btc_mabs_have-t-and-mabs_btc-lt-15.txt", unpack=True)
+RA,DEC,longt,lat,t,et,v, bt, e_bt, btc, mabs=np.genfromtxt("data/t_and_mabs_btc_lt_15.txt", unpack=True)
 
 # converting to radian  0<theta<pi  0<phi<2*pi
 theta=(90-lat)*math.pi/180.0
